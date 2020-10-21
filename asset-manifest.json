@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/greenhaus/static/css/main.5f361e03.chunk.css",
+    "main.js": "/greenhaus/static/js/main.0f6ffd0f.chunk.js",
+    "main.js.map": "/greenhaus/static/js/main.0f6ffd0f.chunk.js.map",
+    "runtime-main.js": "/greenhaus/static/js/runtime-main.5ae55025.js",
+    "runtime-main.js.map": "/greenhaus/static/js/runtime-main.5ae55025.js.map",
+    "static/js/2.606e815e.chunk.js": "/greenhaus/static/js/2.606e815e.chunk.js",
+    "static/js/2.606e815e.chunk.js.map": "/greenhaus/static/js/2.606e815e.chunk.js.map",
+    "index.html": "/greenhaus/index.html",
+    "precache-manifest.3b3f273700b30123bd4699afcd103142.js": "/greenhaus/precache-manifest.3b3f273700b30123bd4699afcd103142.js",
+    "service-worker.js": "/greenhaus/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/greenhaus/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.606e815e.chunk.js.LICENSE.txt": "/greenhaus/static/js/2.606e815e.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/greenhaus/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ae55025.js",
+    "static/js/2.606e815e.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.0f6ffd0f.chunk.js"
+  ]
+}
