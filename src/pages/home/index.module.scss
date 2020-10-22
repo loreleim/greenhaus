@@ -1,0 +1,64 @@
+@import "../../style/variables.scss";
+
+.homeContainer {
+  padding: 2rem;
+}
+
+.helloContainer {
+  padding-top: 2rem;
+}
+
+.notifContainer {
+  padding: 1rem;
+  margin-top: 4rem;
+  background-color: white;
+  height: 15rem;
+  border-radius: 1rem;
+  box-shadow: 0 1px 1px 0 rgba(66, 66, 66, 0.08),
+    0 1px 3px 1px rgba(66, 66, 66, 0.16);
+}
+
+.reminderContainer {
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: white;
+  height: 15rem;
+  border-radius: 1rem;
+  box-shadow: 0 1px 1px 0 rgba(66, 66, 66, 0.08),
+    0 1px 3px 1px rgba(66, 66, 66, 0.16);
+}
+
+.plantContainer {
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: white;
+  height: 15rem;
+  border-radius: 1rem;
+  box-shadow: 0 1px 1px 0 rgba(66, 66, 66, 0.08),
+    0 1px 3px 1px rgba(66, 66, 66, 0.16);
+}
+
+.spacer {
+  height: 10vh;
+}
+
+/*Media Queries*/
+/* Larger than tablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+}
+
+/* For TV Screens & Projectors */
+@media (min-width: 2000px) {
+}
