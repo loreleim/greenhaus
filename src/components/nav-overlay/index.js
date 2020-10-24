@@ -33,6 +33,9 @@ export default class NavOverlay extends PureComponent {
             <li>
               <Link to={"/settings"}>Settings</Link>
             </li>
+            <li>
+              <Link to={"/signup"}>Sign Up</Link>
+            </li>
           </ul>
         </nav>
       </div>
