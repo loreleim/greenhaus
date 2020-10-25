@@ -6,7 +6,7 @@ const Signup = () => {
   const handleSignUp = useCallback(
     async (event) => {
       event.preventDefault();
-      const { email, password } = event.target.elements;
+      const { email, password, passwordConfirm, name } = event.target.elements;
       try {
         await firebase
           .auth()
