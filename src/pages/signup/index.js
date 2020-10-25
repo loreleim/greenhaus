@@ -26,6 +26,11 @@ const Signup = () => {
           <div className={style.popupContainer}>
           <h2>Sign Up</h2>
           <form onSubmit={handleSignUp}>
+          <div className={style.signupInput}>
+                <input name="name" type="text" required
+                    autoComplete="off"/>
+                <label>Name</label>
+            </div>
             <div className={style.signupInput}>
                 <input name="email" type="email" required
                     autoComplete="off"/>
