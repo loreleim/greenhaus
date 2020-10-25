@@ -7,6 +7,9 @@ const Signup = () => {
     async (event) => {
       event.preventDefault();
       const { email, password, passwordConfirm, name } = event.target.elements;
+      if (password.value !== passwordConfirm.value) {
+        return alert("passwords do not match")
+      }
       try {
         await firebase
           .auth()
