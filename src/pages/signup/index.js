@@ -13,7 +13,18 @@ const Signup = () => {
       try {
         await firebase
           .auth()
-          .createUserWithEmailAndPassword(email.value, password.value);
+          .createUserWithEmailAndPassword(email.value, password.value)
+          .then((credential) => {
+            return firebase
+            .firestore()
+            .collection("users")
+            .doc(credential.user.uid)
+            .set({
+              email: email.value,
+              uid: credential.user.uid,
+              name: name.value,
+            })
+          });
       } catch (error) {
         alert(error);
       }
