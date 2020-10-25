@@ -15,7 +15,7 @@ const Signup = () => {
           .auth()
           .createUserWithEmailAndPassword(email.value, password.value);
       } catch (error) {
-        alert("this is a firebase error: " + error);
+        alert(error);
       }
     }
   );
