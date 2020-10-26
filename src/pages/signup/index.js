@@ -3,6 +3,9 @@ import firebase from "../../database/firebase";
 import style from "./index.module.scss";
 
 const Signup = () => {
+  const today = new Date();
+  const month = today.toLocaleString('default', { month: 'long' })
+  const year = today.getFullYear();
   const handleSignUp = useCallback(
     async (event) => {
       event.preventDefault();
