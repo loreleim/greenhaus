@@ -43,7 +43,7 @@ const Signup = () => {
           <div className={style.signupInput}>
                 <input name="name" type="text" required
                     autoComplete="off"/>
-                <label>Name</label>
+                <label>Display Name</label>
             </div>
             <div className={style.signupInput}>
                 <input name="email" type="email" required
