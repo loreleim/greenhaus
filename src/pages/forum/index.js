@@ -1,6 +1,5 @@
 import React from "react";
 import style from "./index.module.scss";
-import Signup from "../signup";
 
 class Forum extends React.Component {
 
@@ -24,7 +23,6 @@ class Forum extends React.Component {
       <div className={style.mainContainer}>
         <section>
           <h2>Forums</h2>
-          <Signup></Signup>
         </section>
       </div>
     );
