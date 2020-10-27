@@ -1,9 +1,11 @@
 import React, { PureComponent } from "react";
 import { Link } from "react-router-dom";
 import style from "./index.module.scss";
+import firebase from "../../database/firebase";
 
 export default class NavOverlay extends PureComponent {
   render() {
+
     return (
       <div>
         <nav
@@ -35,6 +37,9 @@ export default class NavOverlay extends PureComponent {
             </li>
             <li>
               <Link to={"/signup"}>Sign Up</Link>
+            </li>
+            <li onClick={() => firebase.auth().signOut()}>
+              SignOut
             </li>
           </ul>
         </nav>
