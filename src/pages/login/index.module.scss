@@ -1,0 +1,70 @@
+.backgroundBlur {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  padding: 2rem;
+}
+
+.popupContainer {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: white;
+  height: 15rem;
+  border-radius: 1rem;
+  margin: 0 auto;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  position: relative;
+  height: fit-content;
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.signupInput {
+  margin-top: 2rem;
+}
+
+.popupContainer form input {
+  width: 100%;
+  height: 2.5rem;
+  padding-left: 1rem;
+  border: 1px solid;
+  border-radius: 3rem;
+  outline: none;
+
+  &:focus + label {
+    font-size: 1rem;
+    font-weight: bold;
+    transform: translateY(-1.5rem);
+  }
+
+  &:valid + label {
+    font-size: 1rem;
+    font-weight: bold;
+    transform: translateY(-1.5rem);
+  }
+}
+
+.popupContainer form label {
+  transition: 0.2s;
+  left: 0;
+  position: absolute;
+  transform: translateY(0.5rem);
+  padding-left: 2rem;
+}
+
+.popupContainer form button {
+  width: 100%;
+  height: 2.5rem;
+  border: 1px solid;
+  border-radius: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+}
