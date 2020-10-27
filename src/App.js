@@ -11,6 +11,7 @@ import NavOverlay from "./components/nav-overlay";
 import Home from "./pages/home";
 import Forum from "./pages/forum";
 import Inventory from "./pages/inventory";
+import Signup from "./pages/signup";
 import Login from "./pages/login";
 import Profile from "./pages/profile";
 
@@ -71,6 +72,7 @@ const App = withRouter(
               <Route path="/" exact component={Home}></Route>
               <Route path="/forum" component={Forum}></Route>
               <Route path="/inventory" component={Inventory}></Route>
+              <Route path="/signup" component={Signup}></Route>
               <Route path="/login" component={Login}></Route>
               <Route path="/profile" component={Profile}></Route>
             </Switch>
