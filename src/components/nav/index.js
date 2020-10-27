@@ -25,7 +25,7 @@ export default class Nav extends PureComponent {
                 <Link to={"/forum"}>Forum</Link>
               </li>
               <li>
-                <Link to={"/inventory"}>Inventory</Link>
+                <Link to={"/profile"}>Profile</Link>
               </li>
               <li onClick={this.props.drawerClickHandler}>Hamburg
               </li>
