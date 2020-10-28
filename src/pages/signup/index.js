@@ -67,38 +67,3 @@ const Signup = () => {
 }
 
 export default Signup;
-
-
-/*class Signup extends React.Component {
-
-  render() {
-
-    return (
-      <div className={style.signupContainer}>
-        <section className={style.backgroundBlur}>
-          <div className={style.popupContainer}>
-          <h2>Sign Up</h2>
-          <form>
-            <div className={style.signupInput}>
-                <input name="email" type="email" required
-                    autoComplete="off"/>
-                <label>Email</label>
-            </div>
-            <div className={style.signupInput}>
-                <input name="password" type="password" required />
-                <label>Password</label>
-            </div>
-            <div className={style.signupInput}>
-                <input name="password" type="password" required />
-                <label>Confirm Password</label>
-            </div>
-            <button type="submit">Sign Up</button>
-        </form>
-          </div>
-        </section>
-      </div>
-    );
-  }
-}
-
-export default Signup;*/
